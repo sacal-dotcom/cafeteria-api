@@ -136,3 +136,11 @@ El JSON es válido, `cantidad` viene como número (sin comillas) y el Content-Ty
 | `/menu` | 200 | `{"tinto":3000,"pan de bono":2500,"capuchino":6500,"chocolate":5500}` |
 | `/cafeteria` | 200 | `{"horario":"7:00 a.m. - 7:00 p.m.","abierto":true,"nombre":"Café Andino","ciudad":"Bogotá"}` |
 | `/total/3000/2` | 200 | `Total a pagar: $6000` |
+
+## Enlace del repositorio
+
+El código fuente completo del proyecto está disponible en GitHub:
+
+**https://github.com/sacal-dotcom/cafeteria-api**
+
+El repositorio es público y contiene todas las etapas (1 a 6), el reto opcional y el README con la documentación de endpoints.
