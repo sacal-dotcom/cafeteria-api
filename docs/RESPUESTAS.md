@@ -123,7 +123,7 @@ Devuelve un JSON con las claves `producto` (string), `cantidad` (número) y `men
 
 | Petición (GET) | Código HTTP | Content-Type | Respuesta |
 |----------------|-------------|--------------|-----------|
-| `/resumen/capuchino/2` | 200 | application/json | `{"producto":"capuchino","mensaje":" Pediatrics de 2 capuchino registrado","cantidad":2}` |
+| `/resumen/capuchino/2` | 200 | application/json | `{"producto":"capuchino","mensaje":"Pedido de 2 capuchino registrado","cantidad":2}` |
 
 El JSON es válido, `cantidad` viene como número (sin comillas) y el Content-Type es `application/json`.
 
