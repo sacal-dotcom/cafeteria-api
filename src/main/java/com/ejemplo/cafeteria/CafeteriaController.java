@@ -81,7 +81,7 @@ public class CafeteriaController {
         return Map.of(
             "producto", producto,
             "cantidad", cantidad,
-            "mensaje", " Pediatrics de " + cantidad + " " + producto + " registrado"
+            "mensaje", "Pedido de " + cantidad + " " + producto + " registrado"
         );
     }
 }
