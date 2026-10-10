@@ -20,7 +20,7 @@ public class CafeteriaController {
 
     // @GetMapping("/producto/{producto}"): Mapea peticiones GET a /producto/{producto}.
     // La parte {producto} es una variable de ruta que se captura con @PathVariable.
-    @GetMapping("/producto/{producto}")
+@GetMapping("/pedido/{producto}")
     public String producto(@PathVariable String producto) {
         // @PathVariable: Vincula el valor de la variable de ruta {producto} al parámetro del método.
         // El nombre en llaves ({producto}) debe coincidir con el nombre del parámetro (producto).
